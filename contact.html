@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Natalie's Portfolio</title>
+
+  <link rel="icon" type="image/x-icon" href="assets/duckicon.svg" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!--logo + navbar-->
+  <header id="main-header">
+    <div class="header-inner">
+
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/duckicon.svg" alt="Duck Icon" />
+        </a>
+      </div>
+
+      <nav id="main-nav">
+        <div class="nav-inner">
+          <ul class="nav-links">
+            <li><a href="index.html">home</a></li>
+            <li><a href="index.html#about">about</a></li>
+            <li><a href="index.html#education">education</a></li>
+            <li><a href="portfolio.html">portfolio</a></li>
+          </ul>
+          <a href="contact.html" class="nav-btn">contact</a>
+        </div>
+
+        <!--mobile-->
+
+      </nav>
+    </div>
+  </header>
+
+  <main id="contact-me" class="contact contact-me">
+    <div class="contact-content">
+      <h1>Contact me 💭</h1>
+      <p>Feel free to reach out to me for any inquiries, collaborations, or just to say hi! I'm always open to
+        connecting with fellow developers, designers, and anyone interested in web development.</p>
+
+      <form id="contactForm" class="contact-form">
+        <h2 class="contact-title">Get in Touch</h2>
+
+        <input type="text" id="firstName" placeholder="Your Name" required>
+
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="email" id="confirmEmail" placeholder="Confirm Email" required>
+
+        <input type="tel" id="phone" placeholder="Your Phone Number">
+
+        <textarea id="description" placeholder="Your Message" required></textarea>
+
+        <div class="form-row">
+          <label for="projectDate">Project Date:</label>
+          <input type="date" id="projectDate" required>
+        </div>
+
+        <div class="form-row">
+          <label for="duration">Project Duration (hours):</label>
+          <input type="number" id="duration" min="1" required>
+        </div>
+
+        <div class="form-row">
+          <label for="contactMethod">Preferred Contact Method:</label>
+          <select id="contactMethod" required>
+            <option value="">Select</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+          </select>
+        </div>
+
+        <button id="submit" type="submit">Send Message</button>
+      </form>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <img src="assets/duckicon.svg" alt="Duck Icon" class="footer-logo" />
+      <p>&copy; 2026 Natalie. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/natalieportfolio" target="_blank"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/natalie-portfolio" target="_blank"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

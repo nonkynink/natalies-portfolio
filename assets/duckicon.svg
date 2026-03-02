@@ -1,0 +1,15 @@
+<!-- sample rectangle -->
+<svg width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M20 14C20 18.4183 16.4183 22 12 22C7.58172 22 4 18.4183 4 14C4 10 7 9 8.5 9C9.5 9 10 8 10 6C10 3.5 12 2 14 2C17 2 19 4.5 19 7C19 7.5 20 8 20 14Z"
+              fill="#c9ada7" stroke="#22223b" stroke-width="2" stroke-linejoin="round" />
+
+            <path d="M15.5 14C15.5 14 14.5 12 11.5 13C8.5 14 9 17 9 17" stroke="#22223b" stroke-width="2"
+              stroke-linecap="round" />
+
+            <path d="M19 8.5H21C22 8.5 22 7.5 21 7L19 7" stroke="#22223b" stroke-width="2" stroke-linecap="round"
+              fill="#9a8c98" />
+
+            <circle cx="14.5" cy="6.5" r="1.5" fill="#22223b" />
+
+          </svg>
